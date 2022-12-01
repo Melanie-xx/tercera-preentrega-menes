@@ -1,0 +1,27 @@
+//lo utilizamos para reutulizar código//
+@mixin flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+@mixin titulo {
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+    text-decoration: overline;
+    padding-top: 60px ;
+    text-shadow: 5px 5px 5px white;
+}
+@mixin segundoTitulo {
+    font-size: 2rem;
+    font-style: italic;
+    color: black;
+    text-shadow: 2px 2px 10px grey;
+    text-align: center;
+    margin: 5%;
+    text-decoration: overline;
+}

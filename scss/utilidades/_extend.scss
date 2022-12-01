@@ -1,0 +1,17 @@
+%estilosSection{
+    margin: 5% 15% 5% 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    .galeriaImagenesHijo{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.galeriaImagenes{
+    @extend %estilosSection;
+    
+}
+.galeriaImagenesDos{
+    @extend %estilosSection;
+}
